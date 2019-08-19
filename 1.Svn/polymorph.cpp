@@ -18,6 +18,6 @@ bool CPolymorphUtils::CheckMap(LPCHARACTER pChar, bool remove)
 	
 ///Add Above
 	if (!CheckMap(pChar)) {
-		pChar->ChatPacket(CHAT_TYPE_INFO, "Bu mapte olmaz.");
+		pChar->ChatPacket(CHAT_TYPE_INFO, "Sorry...");
 		return false;
 	}
